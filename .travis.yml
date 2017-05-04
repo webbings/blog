@@ -18,7 +18,7 @@ install:
 before_script:
   - git config --global user.name "webbings"
   - git config --global user.email "shaojhweb@gmail.com"
-  - git clone --branch gh-pages https://github.com/webbings/vue-ghpages-blog.git dist
+  - git clone --branch gh-pages https://github.com/webbings/webbings.github.io.git dist
 
 script:
   - npm test
@@ -33,4 +33,4 @@ after_success:
 
 env:
   global:
-    - GH_REF: github.com/webbings/vue-ghpages-blog.git
+    - GH_REF: github.com/webbings/webbings.github.io.git
