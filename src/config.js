@@ -2,13 +2,13 @@ module.exports = {
   /**
    * Output
    */
-  blogTitle: 'Unknow Me',
-  favicon: './static/favicon.png',
+  blogTitle: 'Hello',
+  favicon: null,
 
   /**
    * API
    */
-  repo: 'viko16/writings', // Which repository you stored the posts
+  repo: 'webbings/blogposts', // Which repository you stored the posts
   path: 'posts',
   branch: 'master'
 }
