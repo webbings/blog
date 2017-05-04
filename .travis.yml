@@ -34,4 +34,3 @@ after_success:
 env:
   global:
     - GH_REF: github.com/webbings/vue-ghpages-blog.git
-    
