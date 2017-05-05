@@ -20,7 +20,7 @@ module.exports = {
   entry: './src/main.js',
   output: {
     path: resolve('dist'),
-    publicPath: '/',
+    publicPath: './',
     filename: isProd ? 'build.[chunkhash:5].js' : 'build.js'
   },
   resolve: {
