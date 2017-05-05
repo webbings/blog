@@ -26,6 +26,7 @@ script:
 
 after_success:
   - cd dist
+  - echo "https://webbings.github.io/vue-ghpages-blog/" > CNAME
   - cp index.html 404.html
   - git add --all .
   - git commit --message "Automatically update from travis-ci"
